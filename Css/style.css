@@ -248,6 +248,7 @@ header{
 .image-holder{
     background-image: url("../image/back-end.jfif");
     border-radius: 10px;
+    margin-top: 20px;
     
     
     
@@ -257,17 +258,20 @@ header{
 .frontend-image-holder{
     background-image: url(../image/front-end.jfif);
     border-radius: 10px;
+    margin-top: 20px;
     
 }
 .full-stack-image-holder{
     background-image: url(../image/full-stack.jfif);
     border-radius: 10px;
+    margin-top: 20px;
     
 }
 
 .Additional-service{
     background-image: url(../image/Additional-service.jfif);
     border-radius: 10px;
+    margin-top: 20px;
 
 
 
