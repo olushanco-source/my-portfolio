@@ -256,20 +256,20 @@ header{
 }
 
 .frontend-image-holder{
-    background-image: url(../image/front-end.jfif);
+    background-image: url(image/front-end.jfif);
     border-radius: 10px;
     margin-top: 20px;
     
 }
 .full-stack-image-holder{
-    background-image: url(../image/full-stack.jfif);
+    background-image: url(image/full-stack.jfif);
     border-radius: 10px;
     margin-top: 20px;
     
 }
 
 .Additional-service{
-    background-image: url(../image/Additional-service.jfif);
+    background-image: url(image/Additional-service.jfif);
     border-radius: 10px;
     margin-top: 20px;
 
@@ -563,7 +563,7 @@ footer{
         font-size: 18px;
     }
     .hero-image img{
-        width: 200px;
+        width: 250px;
     }
     .about-us{
         flex-direction: column;
@@ -579,6 +579,9 @@ footer{
     .full-stack{
         font-size: 14px;
         width: 250px;
+    }
+    .image-holder, .frontend-image-holder, .Additional-service, .full-stack-image-holder{
+        max-width: 280px;
     }
     .footer-card{
         padding: 20px;
@@ -596,7 +599,7 @@ footer{
     }
 
     #email-input{
-        width: 200px;
+        width: 170px;
     }
 
     #subject-input{
@@ -606,7 +609,7 @@ footer{
 
     #message-input{
         width: 200px;
-        height: 150px;
+        height: 50px;
 
     }
 
