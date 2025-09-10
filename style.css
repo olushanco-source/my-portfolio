@@ -525,7 +525,8 @@ footer{
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 425px){
+@media screen and (max-width: 320px){
+
     .nav-bar img{
         width: 60px;
     }
@@ -554,10 +555,10 @@ footer{
     }
     .passionate{
         width: 250px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .hero-text h1{
-        font-size: 18px;
+        font-size: 19px;
     }
     .typing{
         font-size: 18px;
@@ -567,21 +568,23 @@ footer{
     }
     .about-us{
         flex-direction: column;
+        margin: auto;
     }
     .about-image{
         height: 300px;
     }
     .about-h1{
-        font-size: 18px;
+        font-size: 20px;
         width: 250px;
-
     }
     .full-stack{
-        font-size: 14px;
+        font-size: 16px;
         width: 250px;
     }
     .image-holder, .frontend-image-holder, .Additional-service, .full-stack-image-holder{
-        max-width: 280px;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 15px;
     }
     .footer-card{
         padding: 20px;
@@ -595,20 +598,21 @@ footer{
     }
 
     #name-input{
-        width: 200px;
+        width: 220px;
+        margin-bottom: 15px;
     }
 
     #email-input{
-        width: 170px;
+        width: 220px;
     }
 
     #subject-input{
-        width: 200px;
+        width: 220px;
 
     }
 
     #message-input{
-        width: 200px;
+        width: 220px;
         height: 50px;
 
     }
@@ -619,11 +623,121 @@ footer{
     }
 
     .contact-form button{
-        width: 220px;
+        width: 230px;
 
     }
     
 }
+
+
+
+@media screen and (max-width: 425px){
+    
+    .nav-bar img{
+        width: 60px;
+    }
+    .nav-list{
+        display: none;
+    } 
+    .nav-bar button{
+        display: none;
+    }
+
+    .menu-bar{
+        display: block;
+        color: white;
+        font-size: 25px;
+        
+    }
+
+    .nav-bar{
+        justify-content: space-between;
+        align-items: center ;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+        max-width: 350px;
+    }
+    .passionate{
+        width: 3500px;
+        font-size: 18px;
+    }
+    .hero-text h1{
+        font-size: 21px;
+    }
+    .typing{
+        font-size: 21px;
+    }
+    .hero-image img{
+        width: 250px;
+        margin: auto;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+    .about-image{
+        height: 300px;
+    }
+    .about-h1{
+        font-size: 21px;
+        width: 250px;
+    }
+    .full-stack{
+        font-size: 18px;
+        width: 250px;
+    }
+    .image-holder, .frontend-image-holder, .Additional-service, .full-stack-image-holder{
+        max-width: 300px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .footer-card{
+        padding: 20px;
+    }
+    .footer-text h1{
+        font-size: 18px;
+
+    }
+    .footer-text p{
+        font-size: 15px;
+    }
+
+    #name-input{
+        width: 240px;
+        margin-bottom: 15px;
+    }
+
+    #email-input{
+        width: 292px;
+    }
+
+    #subject-input{
+        width: 240px;
+
+    }
+
+    #message-input{
+        width: 240px;
+        height: 50px;
+
+    }
+
+
+    .contact-form{
+        margin: auto;
+    }
+
+    .contact-form button{
+        width: 292px;
+
+    }
+    
+}
+
+
+
+
 
 
 
