@@ -7,7 +7,6 @@
 header{
     padding: 20px 60px 0 60px;
     background-image: linear-gradient(to right, #08223B, #040E18);
-
     
 }
 
@@ -581,11 +580,13 @@ footer{
         font-size: 16px;
         width: 250px;
     }
+
     .image-holder, .frontend-image-holder, .Additional-service, .full-stack-image-holder{
         max-width: 300px;
         margin: auto;
         margin-top: 15px;
     }
+
     .footer-card{
         padding: 20px;
     }
@@ -593,26 +594,27 @@ footer{
         font-size: 18px;
 
     }
+
     .footer-text p{
         font-size: 14px;
     }
 
     #name-input{
-        width: 220px;
+        width: 200px;
         margin-bottom: 15px;
     }
 
     #email-input{
-        width: 220px;
+        width: 200px;
     }
 
     #subject-input{
-        width: 220px;
+        width: 200px;
 
     }
 
     #message-input{
-        width: 220px;
+        width: 200px;
         height: 50px;
 
     }
@@ -623,7 +625,7 @@ footer{
     }
 
     .contact-form button{
-        width: 230px;
+        width: 190px;
 
     }
     
@@ -631,7 +633,7 @@ footer{
 
 
 
-@media screen and (max-width: 425px){
+@media (min-width: 321px) and (max-width: 425px){
     
     .nav-bar img{
         width: 60px;
@@ -709,7 +711,7 @@ footer{
     }
 
     #email-input{
-        width: 240px;
+        width: 290px;
     }
 
     #subject-input{
