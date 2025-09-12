@@ -340,6 +340,14 @@ footer{
     font-size: 30px;
 
 }
+.footer-icon{
+    /* color: black; */
+    margin-top: 20px;
+}
+
+.footer-icon i{
+    color: black;
+}
 .footer-text p{
     color: white;
 }
